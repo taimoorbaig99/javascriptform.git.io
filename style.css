@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(137, 151, 241);
+}
+.custom{
+    border: 1px solid grey;
+    position:fixed;
+    transform: translate(-50% , -50%);
+    top: 50%;
+     left: 50%;
+     max-width: 90%;
+     min-width: 390px;
+     margin: 10px , auto , 10px , auto;
+     background-color: rgb(172, 182, 243);
+     border-radius: 15px;
+     text-align: center;
+    
+    
+    
+}
+@media (max-width : 436px) {
+    label{
+        margin-top: 20px;
+    }
+
+}
+input{
+    background-color: rgba(196, 209, 202, 0.815);
+    box-shadow: 3px 6px rgba(177, 175, 175, 0.932); 
+    border: 1px solid white;
+}
